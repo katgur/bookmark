@@ -1,7 +1,7 @@
-import useWidth from "../../hook/useWidth"
-import { Width } from "../../util/types"
-import DesktopHero from "./DesktopHero"
-import MobileHero from "./MobileHero"
+import useWidth from '../../hook/useWidth'
+import { Width } from '../../util/types'
+import DesktopHero from './DesktopHero'
+import MobileHero from './MobileHero'
 
 function Hero() {
     const width = useWidth()

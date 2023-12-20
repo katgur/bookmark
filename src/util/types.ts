@@ -5,5 +5,5 @@ export enum Width {
 }
 
 export interface HeaderProps {
-    options: String[],
+    options: string[],
 }
