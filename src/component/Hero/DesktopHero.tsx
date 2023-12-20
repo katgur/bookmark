@@ -2,8 +2,8 @@ import hero from '../../img/illustration-hero.svg'
 
 function DesktopHero() {
     return (
-        <article className='px-[165px] py-20 flex gap-24 items-center'>
-            <div className='w-1/2'>
+        <article className='px-[165px] py-20 flex gap-24 items-center relative'>
+            <div className='w-1/2 shrink-0'>
                 <h1 className='text-4xl font-bold'>
                     A Simple Bookmark Manager
                 </h1>
@@ -20,7 +20,8 @@ function DesktopHero() {
                     </button>
                 </div>
             </div>
-            <img className='w-1/2' src={hero} alt='Mockup' />
+            <img className='w-1/2 z-10' src={hero} alt='Mockup' />
+            <div className='bg-softBlue rounded-full w-1/2 absolute z-0 h-[50%] right-[-20%] bottom-[10%]'></div>
         </article>
     )
 }
