@@ -3,20 +3,20 @@ import { HeaderProps } from '../../util/types'
 
 function DesktopHeader({ options }: HeaderProps) {
     return (
-        <header>
+        <header className='px-[165px] py-10 flex items-center'>
             <img src={logo} alt='Bookmark Logo' />
-            <nav>
-                <ul>
+            <nav className='ml-[auto]'>
+                <ul className='flex gap-8'>
                     {
                         options.map(option => (
                             <li key={option as React.Key}>
-                                <a href="#">{option}</a>
+                                <a className='uppercase tracking-widest font-semibold hover:text-softRed' href="#">{option}</a>
                             </li>
                         ))
                     }
                 </ul>
             </nav>
-            <button>
+            <button className='bg-softRed ml-9 px-8 py-2 rounded text-white uppercase tracking-widest shadow-lg font-semibold hover:bg-white hover:text-softRed border-2 border-transparent hover:border-softRed'>
                 Login
             </button>
         </header>
