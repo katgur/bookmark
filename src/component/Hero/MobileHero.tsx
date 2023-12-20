@@ -3,7 +3,7 @@ import hero from '../../img/illustration-hero.svg'
 function MobileHero() {
     return (
         <article className='px-6 text-center'>
-            <img src={hero} alt='Mockup' />
+            <img className='m-[auto]' src={hero} alt='Mockup' />
             <h1 className='text-3xl font-bold mt-4'>
                 A Simple Bookmark Manager
             </h1>
