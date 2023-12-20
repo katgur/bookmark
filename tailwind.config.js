@@ -13,6 +13,9 @@ export default {
         grayishBlueTransparent: "hsl(229, 8%, 60%, 0.5)",
         darkBlue: "hsl(229, 31%, 21%)",
         darkBlueTransparent: "hsla(229, 31%, 21%, 0.95)",
+      },
+      backgroundImage: {
+        dots: "url('./src/img/bg-dots.svg')"
       }
     },
   },
