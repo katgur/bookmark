@@ -1,3 +1,4 @@
+import Features from './component/Features'
 import Header from './component/Header'
 import Hero from './component/Hero'
 
@@ -5,7 +6,10 @@ function App() {
     return (
         <>
             <Header />
-            <Hero />
+            <main>
+                <Hero />
+                <Features />
+            </main>
         </>
     )
 }
