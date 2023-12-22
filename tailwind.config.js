@@ -16,6 +16,9 @@ export default {
       },
       backgroundImage: {
         dots: "url('./src/img/bg-dots.svg')",
+      },
+      backgroundPosition: {
+        '3/4': '0 75%'
       }
     },
   },
