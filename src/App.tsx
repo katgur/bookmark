@@ -1,3 +1,4 @@
+import Contact from './component/Contact'
 import Download from './component/Download'
 import Features from './component/Features'
 import Header from './component/Header'
@@ -13,6 +14,7 @@ function App() {
                 <Features />
                 <Download />
                 <Questions />
+                <Contact />
             </main>
         </>
     )
