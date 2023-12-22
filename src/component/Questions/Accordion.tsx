@@ -14,7 +14,7 @@ interface AccordionProps {
 function Accordion({ content }: AccordionProps) {
     const [index, setIndex] = useState<number>(-1)
 
-    const onSummaryClick = (e, i: number) => {
+    const onSummaryClick = (e: React.MouseEvent<HTMLElement, MouseEvent>, i: number) => {
         e.preventDefault()
         if (index === i) {
             setIndex(-1)
