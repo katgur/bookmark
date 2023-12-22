@@ -26,7 +26,7 @@ const position = ['mb-auto', 'my-auto', 'mt-auto']
 function Download() {
     return (
         <section className='text-center px-6 mt-20 lg:px-[165px]'>
-            <article className='px-[25%]'>
+            <article className='px-[20%]'>
                 <h2 className='text-3xl font-bold'>
                     Download the extenion
                 </h2>
