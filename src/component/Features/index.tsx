@@ -1,4 +1,3 @@
-import useWidth from '../../hook/useWidth'
 import img1 from '../../img/illustration-features-tab-1.svg'
 import img2 from '../../img/illustration-features-tab-2.svg'
 import img3 from '../../img/illustration-features-tab-3.svg'
@@ -24,17 +23,17 @@ const content = [
 ]
 
 function Features() {
-    const width = useWidth()
-
     return (
-        <section className='text-center px-6 mt-24'>
-            <h2 className='text-2xl font-bold'>
-                Features
-            </h2>
-            <p className='text-base text-grayishBlue mt-4'>
-                Our aim is to make it quick and easy for you to access your favourite websites.
-                Your bookmarks sync between your devices so you can access them on the go.
-            </p>
+        <section className='text-center px-6 mt-20 lg:px-[165px]'>
+            <article className='lg:px-[30%]'>
+                <h2 className='text-3xl font-bold'>
+                    Features
+                </h2>
+                <p className='text-base text-grayishBlue mt-4'>
+                    Our aim is to make it quick and easy for you to access your favourite websites.
+                    Your bookmarks sync between your devices so you can access them on the go.
+                </p>
+            </article>
             <TabLayout menu={options} content={content} />
         </section>
     )
